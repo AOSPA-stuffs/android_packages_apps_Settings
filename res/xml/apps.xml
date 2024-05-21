@@ -113,6 +113,13 @@
         android:summary="@string/pif_data_summary"
         android:defaultValue=""/>
 
+    <co.aospa.framework.preference.SecureSettingSwitchPreference
+        android:key="hide_screen_capture_status"
+        android:title="@string/hide_screen_capture_status_title"
+        android:order="19"
+        android:summary="@string/hide_screen_capture_status_summary"
+        android:defaultValue="false"/>
+
     <Preference
         android:key="special_access"
         android:fragment="com.android.settings.applications.specialaccess.SpecialAccessSettings"
